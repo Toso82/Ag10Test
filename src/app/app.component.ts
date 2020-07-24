@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Ag10Test';
+  testVariable: string;
+  testNumber: number;
+
+  functionAdd(somma: number): number{
+    console.log('Change');
+    return somma += 2;
+  }
+
+
 }
